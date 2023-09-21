@@ -1,0 +1,434 @@
+[2023-09-20T22:24:57.033+0000] {processor.py:157} INFO - Started process (PID=30) to work on /opt/airflow/dags/volumeOverTime.py
+[2023-09-20T22:24:57.038+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/volumeOverTime.py for tasks to queue
+[2023-09-20T22:24:57.049+0000] {logging_mixin.py:151} INFO - [2023-09-20T22:24:57.048+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/volumeOverTime.py
+[2023-09-20T22:24:57.072+0000] {logging_mixin.py:151} INFO - [2023-09-20T22:24:57.070+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/volumeOverTime.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/volumeOverTime.py", line 4, in <module>
+    import duckdb
+ModuleNotFoundError: No module named 'duckdb'
+[2023-09-20T22:24:57.073+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/volumeOverTime.py
+[2023-09-20T22:24:57.123+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/volumeOverTime.py took 0.096 seconds
+[2023-09-20T22:25:27.376+0000] {processor.py:157} INFO - Started process (PID=85) to work on /opt/airflow/dags/volumeOverTime.py
+[2023-09-20T22:25:27.377+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/volumeOverTime.py for tasks to queue
+[2023-09-20T22:25:27.382+0000] {logging_mixin.py:151} INFO - [2023-09-20T22:25:27.381+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/volumeOverTime.py
+[2023-09-20T22:25:27.392+0000] {logging_mixin.py:151} INFO - [2023-09-20T22:25:27.390+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/volumeOverTime.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/volumeOverTime.py", line 4, in <module>
+    import duckdb
+ModuleNotFoundError: No module named 'duckdb'
+[2023-09-20T22:25:27.393+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/volumeOverTime.py
+[2023-09-20T22:25:27.438+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/volumeOverTime.py took 0.068 seconds
+[2023-09-20T22:25:58.062+0000] {processor.py:157} INFO - Started process (PID=140) to work on /opt/airflow/dags/volumeOverTime.py
+[2023-09-20T22:25:58.065+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/volumeOverTime.py for tasks to queue
+[2023-09-20T22:25:58.070+0000] {logging_mixin.py:151} INFO - [2023-09-20T22:25:58.069+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/volumeOverTime.py
+[2023-09-20T22:25:58.083+0000] {logging_mixin.py:151} INFO - [2023-09-20T22:25:58.081+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/volumeOverTime.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/volumeOverTime.py", line 4, in <module>
+    import duckdb
+ModuleNotFoundError: No module named 'duckdb'
+[2023-09-20T22:25:58.084+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/volumeOverTime.py
+[2023-09-20T22:25:58.140+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/volumeOverTime.py took 0.087 seconds
+[2023-09-20T22:26:18.092+0000] {processor.py:157} INFO - Started process (PID=195) to work on /opt/airflow/dags/volumeOverTime.py
+[2023-09-20T22:26:18.094+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/volumeOverTime.py for tasks to queue
+[2023-09-20T22:26:18.098+0000] {logging_mixin.py:151} INFO - [2023-09-20T22:26:18.097+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/volumeOverTime.py
+[2023-09-20T22:26:18.106+0000] {processor.py:839} INFO - DAG(s) dict_keys(['volumeOverTime']) retrieved from /opt/airflow/dags/volumeOverTime.py
+[2023-09-20T22:26:18.315+0000] {logging_mixin.py:151} INFO - [2023-09-20T22:26:18.315+0000] {manager.py:499} INFO - Created Permission View: %s
+[2023-09-20T22:26:18.349+0000] {logging_mixin.py:151} INFO - [2023-09-20T22:26:18.348+0000] {manager.py:499} INFO - Created Permission View: %s
+[2023-09-20T22:26:18.399+0000] {logging_mixin.py:151} INFO - [2023-09-20T22:26:18.399+0000] {manager.py:499} INFO - Created Permission View: %s
+[2023-09-20T22:26:18.401+0000] {logging_mixin.py:151} INFO - [2023-09-20T22:26:18.400+0000] {security.py:708} INFO - Not syncing DAG-level permissions for DAG 'DAG:volumeOverTime' as access control is unset.
+[2023-09-20T22:26:18.402+0000] {logging_mixin.py:151} INFO - [2023-09-20T22:26:18.401+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-20T22:26:18.428+0000] {logging_mixin.py:151} INFO - [2023-09-20T22:26:18.428+0000] {dag.py:2937} INFO - Creating ORM DAG for volumeOverTime
+[2023-09-20T22:26:18.430+0000] {logging_mixin.py:151} INFO - [2023-09-20T22:26:18.430+0000] {dag.py:3696} INFO - Setting next_dagrun for volumeOverTime to None, run_after=None
+[2023-09-20T22:26:18.567+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/volumeOverTime.py took 0.479 seconds
+[2023-09-20T22:26:49.019+0000] {processor.py:157} INFO - Started process (PID=250) to work on /opt/airflow/dags/volumeOverTime.py
+[2023-09-20T22:26:49.021+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/volumeOverTime.py for tasks to queue
+[2023-09-20T22:26:49.025+0000] {logging_mixin.py:151} INFO - [2023-09-20T22:26:49.024+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/volumeOverTime.py
+[2023-09-20T22:26:49.038+0000] {processor.py:839} INFO - DAG(s) dict_keys(['volumeOverTime']) retrieved from /opt/airflow/dags/volumeOverTime.py
+[2023-09-20T22:26:49.168+0000] {logging_mixin.py:151} INFO - [2023-09-20T22:26:49.168+0000] {security.py:708} INFO - Not syncing DAG-level permissions for DAG 'DAG:volumeOverTime' as access control is unset.
+[2023-09-20T22:26:49.169+0000] {logging_mixin.py:151} INFO - [2023-09-20T22:26:49.169+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-20T22:26:49.186+0000] {logging_mixin.py:151} INFO - [2023-09-20T22:26:49.186+0000] {dag.py:3696} INFO - Setting next_dagrun for volumeOverTime to None, run_after=None
+[2023-09-20T22:26:49.215+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/volumeOverTime.py took 0.202 seconds
+[2023-09-20T22:27:19.688+0000] {processor.py:157} INFO - Started process (PID=305) to work on /opt/airflow/dags/volumeOverTime.py
+[2023-09-20T22:27:19.690+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/volumeOverTime.py for tasks to queue
+[2023-09-20T22:27:19.696+0000] {logging_mixin.py:151} INFO - [2023-09-20T22:27:19.695+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/volumeOverTime.py
+[2023-09-20T22:27:19.712+0000] {processor.py:839} INFO - DAG(s) dict_keys(['volumeOverTime']) retrieved from /opt/airflow/dags/volumeOverTime.py
+[2023-09-20T22:27:19.755+0000] {logging_mixin.py:151} INFO - [2023-09-20T22:27:19.754+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-20T22:27:19.776+0000] {logging_mixin.py:151} INFO - [2023-09-20T22:27:19.776+0000] {dag.py:3696} INFO - Setting next_dagrun for volumeOverTime to None, run_after=None
+[2023-09-20T22:27:19.880+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/volumeOverTime.py took 0.201 seconds
+[2023-09-20T22:27:50.073+0000] {processor.py:157} INFO - Started process (PID=361) to work on /opt/airflow/dags/volumeOverTime.py
+[2023-09-20T22:27:50.075+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/volumeOverTime.py for tasks to queue
+[2023-09-20T22:27:50.081+0000] {logging_mixin.py:151} INFO - [2023-09-20T22:27:50.080+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/volumeOverTime.py
+[2023-09-20T22:27:50.096+0000] {processor.py:839} INFO - DAG(s) dict_keys(['volumeOverTime']) retrieved from /opt/airflow/dags/volumeOverTime.py
+[2023-09-20T22:27:50.145+0000] {logging_mixin.py:151} INFO - [2023-09-20T22:27:50.144+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-20T22:27:50.179+0000] {logging_mixin.py:151} INFO - [2023-09-20T22:27:50.178+0000] {dag.py:3696} INFO - Setting next_dagrun for volumeOverTime to None, run_after=None
+[2023-09-20T22:27:50.238+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/volumeOverTime.py took 0.174 seconds
+[2023-09-20T22:28:20.651+0000] {processor.py:157} INFO - Started process (PID=416) to work on /opt/airflow/dags/volumeOverTime.py
+[2023-09-20T22:28:20.654+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/volumeOverTime.py for tasks to queue
+[2023-09-20T22:28:20.662+0000] {logging_mixin.py:151} INFO - [2023-09-20T22:28:20.661+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/volumeOverTime.py
+[2023-09-20T22:28:20.677+0000] {processor.py:839} INFO - DAG(s) dict_keys(['volumeOverTime']) retrieved from /opt/airflow/dags/volumeOverTime.py
+[2023-09-20T22:28:20.720+0000] {logging_mixin.py:151} INFO - [2023-09-20T22:28:20.720+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-20T22:28:20.744+0000] {logging_mixin.py:151} INFO - [2023-09-20T22:28:20.744+0000] {dag.py:3696} INFO - Setting next_dagrun for volumeOverTime to None, run_after=None
+[2023-09-20T22:28:20.781+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/volumeOverTime.py took 0.145 seconds
+[2023-09-20T22:28:51.405+0000] {processor.py:157} INFO - Started process (PID=471) to work on /opt/airflow/dags/volumeOverTime.py
+[2023-09-20T22:28:51.407+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/volumeOverTime.py for tasks to queue
+[2023-09-20T22:28:51.414+0000] {logging_mixin.py:151} INFO - [2023-09-20T22:28:51.413+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/volumeOverTime.py
+[2023-09-20T22:28:51.430+0000] {processor.py:839} INFO - DAG(s) dict_keys(['volumeOverTime']) retrieved from /opt/airflow/dags/volumeOverTime.py
+[2023-09-20T22:28:51.480+0000] {logging_mixin.py:151} INFO - [2023-09-20T22:28:51.480+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-20T22:28:51.512+0000] {logging_mixin.py:151} INFO - [2023-09-20T22:28:51.512+0000] {dag.py:3696} INFO - Setting next_dagrun for volumeOverTime to None, run_after=None
+[2023-09-20T22:28:51.563+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/volumeOverTime.py took 0.168 seconds
+[2023-09-20T22:29:22.139+0000] {processor.py:157} INFO - Started process (PID=526) to work on /opt/airflow/dags/volumeOverTime.py
+[2023-09-20T22:29:22.141+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/volumeOverTime.py for tasks to queue
+[2023-09-20T22:29:22.147+0000] {logging_mixin.py:151} INFO - [2023-09-20T22:29:22.146+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/volumeOverTime.py
+[2023-09-20T22:29:22.163+0000] {processor.py:839} INFO - DAG(s) dict_keys(['volumeOverTime']) retrieved from /opt/airflow/dags/volumeOverTime.py
+[2023-09-20T22:29:22.207+0000] {logging_mixin.py:151} INFO - [2023-09-20T22:29:22.207+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-20T22:29:22.233+0000] {logging_mixin.py:151} INFO - [2023-09-20T22:29:22.233+0000] {dag.py:3696} INFO - Setting next_dagrun for volumeOverTime to None, run_after=None
+[2023-09-20T22:29:22.283+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/volumeOverTime.py took 0.153 seconds
+[2023-09-20T22:29:52.692+0000] {processor.py:157} INFO - Started process (PID=581) to work on /opt/airflow/dags/volumeOverTime.py
+[2023-09-20T22:29:52.695+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/volumeOverTime.py for tasks to queue
+[2023-09-20T22:29:52.698+0000] {logging_mixin.py:151} INFO - [2023-09-20T22:29:52.698+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/volumeOverTime.py
+[2023-09-20T22:29:52.714+0000] {processor.py:839} INFO - DAG(s) dict_keys(['volumeOverTime']) retrieved from /opt/airflow/dags/volumeOverTime.py
+[2023-09-20T22:29:52.757+0000] {logging_mixin.py:151} INFO - [2023-09-20T22:29:52.756+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-20T22:29:52.786+0000] {logging_mixin.py:151} INFO - [2023-09-20T22:29:52.786+0000] {dag.py:3696} INFO - Setting next_dagrun for volumeOverTime to None, run_after=None
+[2023-09-20T22:29:52.829+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/volumeOverTime.py took 0.145 seconds
+[2023-09-20T22:30:23.764+0000] {processor.py:157} INFO - Started process (PID=636) to work on /opt/airflow/dags/volumeOverTime.py
+[2023-09-20T22:30:23.767+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/volumeOverTime.py for tasks to queue
+[2023-09-20T22:30:23.773+0000] {logging_mixin.py:151} INFO - [2023-09-20T22:30:23.773+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/volumeOverTime.py
+[2023-09-20T22:30:23.789+0000] {processor.py:839} INFO - DAG(s) dict_keys(['volumeOverTime']) retrieved from /opt/airflow/dags/volumeOverTime.py
+[2023-09-20T22:30:23.837+0000] {logging_mixin.py:151} INFO - [2023-09-20T22:30:23.837+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-20T22:30:23.866+0000] {logging_mixin.py:151} INFO - [2023-09-20T22:30:23.866+0000] {dag.py:3696} INFO - Setting next_dagrun for volumeOverTime to None, run_after=None
+[2023-09-20T22:30:23.928+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/volumeOverTime.py took 0.177 seconds
+[2023-09-20T22:30:54.548+0000] {processor.py:157} INFO - Started process (PID=691) to work on /opt/airflow/dags/volumeOverTime.py
+[2023-09-20T22:30:54.551+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/volumeOverTime.py for tasks to queue
+[2023-09-20T22:30:54.557+0000] {logging_mixin.py:151} INFO - [2023-09-20T22:30:54.556+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/volumeOverTime.py
+[2023-09-20T22:30:54.573+0000] {processor.py:839} INFO - DAG(s) dict_keys(['volumeOverTime']) retrieved from /opt/airflow/dags/volumeOverTime.py
+[2023-09-20T22:30:54.623+0000] {logging_mixin.py:151} INFO - [2023-09-20T22:30:54.623+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-20T22:30:54.656+0000] {logging_mixin.py:151} INFO - [2023-09-20T22:30:54.656+0000] {dag.py:3696} INFO - Setting next_dagrun for volumeOverTime to None, run_after=None
+[2023-09-20T22:30:54.706+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/volumeOverTime.py took 0.167 seconds
+[2023-09-20T22:31:25.529+0000] {processor.py:157} INFO - Started process (PID=746) to work on /opt/airflow/dags/volumeOverTime.py
+[2023-09-20T22:31:25.532+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/volumeOverTime.py for tasks to queue
+[2023-09-20T22:31:25.538+0000] {logging_mixin.py:151} INFO - [2023-09-20T22:31:25.537+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/volumeOverTime.py
+[2023-09-20T22:31:25.553+0000] {processor.py:839} INFO - DAG(s) dict_keys(['volumeOverTime']) retrieved from /opt/airflow/dags/volumeOverTime.py
+[2023-09-20T22:31:25.601+0000] {logging_mixin.py:151} INFO - [2023-09-20T22:31:25.601+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-20T22:31:25.635+0000] {logging_mixin.py:151} INFO - [2023-09-20T22:31:25.634+0000] {dag.py:3696} INFO - Setting next_dagrun for volumeOverTime to None, run_after=None
+[2023-09-20T22:31:25.691+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/volumeOverTime.py took 0.171 seconds
+[2023-09-20T22:31:56.168+0000] {processor.py:157} INFO - Started process (PID=801) to work on /opt/airflow/dags/volumeOverTime.py
+[2023-09-20T22:31:56.170+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/volumeOverTime.py for tasks to queue
+[2023-09-20T22:31:56.178+0000] {logging_mixin.py:151} INFO - [2023-09-20T22:31:56.177+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/volumeOverTime.py
+[2023-09-20T22:31:56.193+0000] {processor.py:839} INFO - DAG(s) dict_keys(['volumeOverTime']) retrieved from /opt/airflow/dags/volumeOverTime.py
+[2023-09-20T22:31:56.234+0000] {logging_mixin.py:151} INFO - [2023-09-20T22:31:56.233+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-20T22:31:56.261+0000] {logging_mixin.py:151} INFO - [2023-09-20T22:31:56.261+0000] {dag.py:3696} INFO - Setting next_dagrun for volumeOverTime to None, run_after=None
+[2023-09-20T22:31:56.300+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/volumeOverTime.py took 0.143 seconds
+[2023-09-20T22:32:26.717+0000] {processor.py:157} INFO - Started process (PID=856) to work on /opt/airflow/dags/volumeOverTime.py
+[2023-09-20T22:32:26.719+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/volumeOverTime.py for tasks to queue
+[2023-09-20T22:32:26.726+0000] {logging_mixin.py:151} INFO - [2023-09-20T22:32:26.725+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/volumeOverTime.py
+[2023-09-20T22:32:26.744+0000] {processor.py:839} INFO - DAG(s) dict_keys(['volumeOverTime']) retrieved from /opt/airflow/dags/volumeOverTime.py
+[2023-09-20T22:32:26.793+0000] {logging_mixin.py:151} INFO - [2023-09-20T22:32:26.793+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-20T22:32:26.833+0000] {logging_mixin.py:151} INFO - [2023-09-20T22:32:26.833+0000] {dag.py:3696} INFO - Setting next_dagrun for volumeOverTime to None, run_after=None
+[2023-09-20T22:32:26.918+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/volumeOverTime.py took 0.212 seconds
+[2023-09-20T22:32:57.633+0000] {processor.py:157} INFO - Started process (PID=911) to work on /opt/airflow/dags/volumeOverTime.py
+[2023-09-20T22:32:57.636+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/volumeOverTime.py for tasks to queue
+[2023-09-20T22:32:57.639+0000] {logging_mixin.py:151} INFO - [2023-09-20T22:32:57.638+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/volumeOverTime.py
+[2023-09-20T22:32:57.646+0000] {processor.py:839} INFO - DAG(s) dict_keys(['volumeOverTime']) retrieved from /opt/airflow/dags/volumeOverTime.py
+[2023-09-20T22:32:57.671+0000] {logging_mixin.py:151} INFO - [2023-09-20T22:32:57.671+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-20T22:32:57.695+0000] {logging_mixin.py:151} INFO - [2023-09-20T22:32:57.695+0000] {dag.py:3696} INFO - Setting next_dagrun for volumeOverTime to None, run_after=None
+[2023-09-20T22:32:57.727+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/volumeOverTime.py took 0.104 seconds
+[2023-09-20T22:33:28.643+0000] {processor.py:157} INFO - Started process (PID=966) to work on /opt/airflow/dags/volumeOverTime.py
+[2023-09-20T22:33:28.645+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/volumeOverTime.py for tasks to queue
+[2023-09-20T22:33:28.651+0000] {logging_mixin.py:151} INFO - [2023-09-20T22:33:28.650+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/volumeOverTime.py
+[2023-09-20T22:33:28.664+0000] {processor.py:839} INFO - DAG(s) dict_keys(['volumeOverTime']) retrieved from /opt/airflow/dags/volumeOverTime.py
+[2023-09-20T22:33:28.707+0000] {logging_mixin.py:151} INFO - [2023-09-20T22:33:28.707+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-20T22:33:28.732+0000] {logging_mixin.py:151} INFO - [2023-09-20T22:33:28.732+0000] {dag.py:3696} INFO - Setting next_dagrun for volumeOverTime to None, run_after=None
+[2023-09-20T22:33:28.775+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/volumeOverTime.py took 0.140 seconds
+[2023-09-20T22:33:59.319+0000] {processor.py:157} INFO - Started process (PID=1021) to work on /opt/airflow/dags/volumeOverTime.py
+[2023-09-20T22:33:59.322+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/volumeOverTime.py for tasks to queue
+[2023-09-20T22:33:59.331+0000] {logging_mixin.py:151} INFO - [2023-09-20T22:33:59.330+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/volumeOverTime.py
+[2023-09-20T22:33:59.351+0000] {processor.py:839} INFO - DAG(s) dict_keys(['volumeOverTime']) retrieved from /opt/airflow/dags/volumeOverTime.py
+[2023-09-20T22:33:59.394+0000] {logging_mixin.py:151} INFO - [2023-09-20T22:33:59.393+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-20T22:33:59.422+0000] {logging_mixin.py:151} INFO - [2023-09-20T22:33:59.422+0000] {dag.py:3696} INFO - Setting next_dagrun for volumeOverTime to None, run_after=None
+[2023-09-20T22:33:59.477+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/volumeOverTime.py took 0.169 seconds
+[2023-09-20T22:34:30.066+0000] {processor.py:157} INFO - Started process (PID=1076) to work on /opt/airflow/dags/volumeOverTime.py
+[2023-09-20T22:34:30.067+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/volumeOverTime.py for tasks to queue
+[2023-09-20T22:34:30.073+0000] {logging_mixin.py:151} INFO - [2023-09-20T22:34:30.072+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/volumeOverTime.py
+[2023-09-20T22:34:30.083+0000] {processor.py:839} INFO - DAG(s) dict_keys(['volumeOverTime']) retrieved from /opt/airflow/dags/volumeOverTime.py
+[2023-09-20T22:34:30.119+0000] {logging_mixin.py:151} INFO - [2023-09-20T22:34:30.119+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-20T22:34:30.137+0000] {logging_mixin.py:151} INFO - [2023-09-20T22:34:30.137+0000] {dag.py:3696} INFO - Setting next_dagrun for volumeOverTime to None, run_after=None
+[2023-09-20T22:34:30.173+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/volumeOverTime.py took 0.115 seconds
+[2023-09-20T22:35:01.005+0000] {processor.py:157} INFO - Started process (PID=1131) to work on /opt/airflow/dags/volumeOverTime.py
+[2023-09-20T22:35:01.008+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/volumeOverTime.py for tasks to queue
+[2023-09-20T22:35:01.015+0000] {logging_mixin.py:151} INFO - [2023-09-20T22:35:01.014+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/volumeOverTime.py
+[2023-09-20T22:35:01.032+0000] {processor.py:839} INFO - DAG(s) dict_keys(['volumeOverTime']) retrieved from /opt/airflow/dags/volumeOverTime.py
+[2023-09-20T22:35:01.079+0000] {logging_mixin.py:151} INFO - [2023-09-20T22:35:01.079+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-20T22:35:01.098+0000] {logging_mixin.py:151} INFO - [2023-09-20T22:35:01.097+0000] {dag.py:3696} INFO - Setting next_dagrun for volumeOverTime to None, run_after=None
+[2023-09-20T22:35:01.133+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/volumeOverTime.py took 0.140 seconds
+[2023-09-20T22:35:31.912+0000] {processor.py:157} INFO - Started process (PID=1186) to work on /opt/airflow/dags/volumeOverTime.py
+[2023-09-20T22:35:31.914+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/volumeOverTime.py for tasks to queue
+[2023-09-20T22:35:31.922+0000] {logging_mixin.py:151} INFO - [2023-09-20T22:35:31.921+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/volumeOverTime.py
+[2023-09-20T22:35:31.937+0000] {processor.py:839} INFO - DAG(s) dict_keys(['volumeOverTime']) retrieved from /opt/airflow/dags/volumeOverTime.py
+[2023-09-20T22:35:31.984+0000] {logging_mixin.py:151} INFO - [2023-09-20T22:35:31.984+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-20T22:35:32.017+0000] {logging_mixin.py:151} INFO - [2023-09-20T22:35:32.016+0000] {dag.py:3696} INFO - Setting next_dagrun for volumeOverTime to None, run_after=None
+[2023-09-20T22:35:32.064+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/volumeOverTime.py took 0.160 seconds
+[2023-09-20T22:36:02.187+0000] {processor.py:157} INFO - Started process (PID=1241) to work on /opt/airflow/dags/volumeOverTime.py
+[2023-09-20T22:36:02.188+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/volumeOverTime.py for tasks to queue
+[2023-09-20T22:36:02.192+0000] {logging_mixin.py:151} INFO - [2023-09-20T22:36:02.192+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/volumeOverTime.py
+[2023-09-20T22:36:02.199+0000] {processor.py:839} INFO - DAG(s) dict_keys(['volumeOverTime']) retrieved from /opt/airflow/dags/volumeOverTime.py
+[2023-09-20T22:36:02.230+0000] {logging_mixin.py:151} INFO - [2023-09-20T22:36:02.230+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-20T22:36:02.248+0000] {logging_mixin.py:151} INFO - [2023-09-20T22:36:02.248+0000] {dag.py:3696} INFO - Setting next_dagrun for volumeOverTime to None, run_after=None
+[2023-09-20T22:36:02.289+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/volumeOverTime.py took 0.113 seconds
+[2023-09-20T22:36:32.965+0000] {processor.py:157} INFO - Started process (PID=1296) to work on /opt/airflow/dags/volumeOverTime.py
+[2023-09-20T22:36:32.967+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/volumeOverTime.py for tasks to queue
+[2023-09-20T22:36:32.974+0000] {logging_mixin.py:151} INFO - [2023-09-20T22:36:32.974+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/volumeOverTime.py
+[2023-09-20T22:36:32.988+0000] {processor.py:839} INFO - DAG(s) dict_keys(['volumeOverTime']) retrieved from /opt/airflow/dags/volumeOverTime.py
+[2023-09-20T22:36:33.030+0000] {logging_mixin.py:151} INFO - [2023-09-20T22:36:33.030+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-20T22:36:33.058+0000] {logging_mixin.py:151} INFO - [2023-09-20T22:36:33.058+0000] {dag.py:3696} INFO - Setting next_dagrun for volumeOverTime to None, run_after=None
+[2023-09-20T22:36:33.112+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/volumeOverTime.py took 0.156 seconds
+[2023-09-20T22:37:03.456+0000] {processor.py:157} INFO - Started process (PID=1352) to work on /opt/airflow/dags/volumeOverTime.py
+[2023-09-20T22:37:03.459+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/volumeOverTime.py for tasks to queue
+[2023-09-20T22:37:03.468+0000] {logging_mixin.py:151} INFO - [2023-09-20T22:37:03.467+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/volumeOverTime.py
+[2023-09-20T22:37:03.483+0000] {processor.py:839} INFO - DAG(s) dict_keys(['volumeOverTime']) retrieved from /opt/airflow/dags/volumeOverTime.py
+[2023-09-20T22:37:03.530+0000] {logging_mixin.py:151} INFO - [2023-09-20T22:37:03.530+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-20T22:37:03.562+0000] {logging_mixin.py:151} INFO - [2023-09-20T22:37:03.562+0000] {dag.py:3696} INFO - Setting next_dagrun for volumeOverTime to None, run_after=None
+[2023-09-20T22:37:03.617+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/volumeOverTime.py took 0.172 seconds
+[2023-09-20T22:37:34.211+0000] {processor.py:157} INFO - Started process (PID=1407) to work on /opt/airflow/dags/volumeOverTime.py
+[2023-09-20T22:37:34.213+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/volumeOverTime.py for tasks to queue
+[2023-09-20T22:37:34.220+0000] {logging_mixin.py:151} INFO - [2023-09-20T22:37:34.219+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/volumeOverTime.py
+[2023-09-20T22:37:34.235+0000] {processor.py:839} INFO - DAG(s) dict_keys(['volumeOverTime']) retrieved from /opt/airflow/dags/volumeOverTime.py
+[2023-09-20T22:37:34.286+0000] {logging_mixin.py:151} INFO - [2023-09-20T22:37:34.285+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-20T22:37:34.320+0000] {logging_mixin.py:151} INFO - [2023-09-20T22:37:34.319+0000] {dag.py:3696} INFO - Setting next_dagrun for volumeOverTime to None, run_after=None
+[2023-09-20T22:37:34.488+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/volumeOverTime.py took 0.287 seconds
+[2023-09-20T22:38:05.208+0000] {processor.py:157} INFO - Started process (PID=1462) to work on /opt/airflow/dags/volumeOverTime.py
+[2023-09-20T22:38:05.210+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/volumeOverTime.py for tasks to queue
+[2023-09-20T22:38:05.217+0000] {logging_mixin.py:151} INFO - [2023-09-20T22:38:05.216+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/volumeOverTime.py
+[2023-09-20T22:38:05.233+0000] {processor.py:839} INFO - DAG(s) dict_keys(['volumeOverTime']) retrieved from /opt/airflow/dags/volumeOverTime.py
+[2023-09-20T22:38:05.279+0000] {logging_mixin.py:151} INFO - [2023-09-20T22:38:05.279+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-20T22:38:05.311+0000] {logging_mixin.py:151} INFO - [2023-09-20T22:38:05.311+0000] {dag.py:3696} INFO - Setting next_dagrun for volumeOverTime to None, run_after=None
+[2023-09-20T22:38:05.363+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/volumeOverTime.py took 0.166 seconds
+[2023-09-20T22:38:35.753+0000] {processor.py:157} INFO - Started process (PID=1517) to work on /opt/airflow/dags/volumeOverTime.py
+[2023-09-20T22:38:35.755+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/volumeOverTime.py for tasks to queue
+[2023-09-20T22:38:35.762+0000] {logging_mixin.py:151} INFO - [2023-09-20T22:38:35.762+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/volumeOverTime.py
+[2023-09-20T22:38:35.777+0000] {processor.py:839} INFO - DAG(s) dict_keys(['volumeOverTime']) retrieved from /opt/airflow/dags/volumeOverTime.py
+[2023-09-20T22:38:35.823+0000] {logging_mixin.py:151} INFO - [2023-09-20T22:38:35.823+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-20T22:38:35.852+0000] {logging_mixin.py:151} INFO - [2023-09-20T22:38:35.852+0000] {dag.py:3696} INFO - Setting next_dagrun for volumeOverTime to None, run_after=None
+[2023-09-20T22:38:35.902+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/volumeOverTime.py took 0.157 seconds
+[2023-09-20T22:39:06.415+0000] {processor.py:157} INFO - Started process (PID=1572) to work on /opt/airflow/dags/volumeOverTime.py
+[2023-09-20T22:39:06.418+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/volumeOverTime.py for tasks to queue
+[2023-09-20T22:39:06.426+0000] {logging_mixin.py:151} INFO - [2023-09-20T22:39:06.425+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/volumeOverTime.py
+[2023-09-20T22:39:06.442+0000] {processor.py:839} INFO - DAG(s) dict_keys(['volumeOverTime']) retrieved from /opt/airflow/dags/volumeOverTime.py
+[2023-09-20T22:39:06.489+0000] {logging_mixin.py:151} INFO - [2023-09-20T22:39:06.488+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-20T22:39:06.522+0000] {logging_mixin.py:151} INFO - [2023-09-20T22:39:06.522+0000] {dag.py:3696} INFO - Setting next_dagrun for volumeOverTime to None, run_after=None
+[2023-09-20T22:39:06.564+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/volumeOverTime.py took 0.164 seconds
+[2023-09-20T22:39:36.879+0000] {processor.py:157} INFO - Started process (PID=1627) to work on /opt/airflow/dags/volumeOverTime.py
+[2023-09-20T22:39:36.882+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/volumeOverTime.py for tasks to queue
+[2023-09-20T22:39:36.890+0000] {logging_mixin.py:151} INFO - [2023-09-20T22:39:36.889+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/volumeOverTime.py
+[2023-09-20T22:39:36.904+0000] {processor.py:839} INFO - DAG(s) dict_keys(['volumeOverTime']) retrieved from /opt/airflow/dags/volumeOverTime.py
+[2023-09-20T22:39:36.936+0000] {logging_mixin.py:151} INFO - [2023-09-20T22:39:36.936+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-20T22:39:36.957+0000] {logging_mixin.py:151} INFO - [2023-09-20T22:39:36.957+0000] {dag.py:3696} INFO - Setting next_dagrun for volumeOverTime to None, run_after=None
+[2023-09-20T22:39:37.000+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/volumeOverTime.py took 0.130 seconds
+[2023-09-20T22:40:07.689+0000] {processor.py:157} INFO - Started process (PID=1681) to work on /opt/airflow/dags/volumeOverTime.py
+[2023-09-20T22:40:07.690+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/volumeOverTime.py for tasks to queue
+[2023-09-20T22:40:07.695+0000] {logging_mixin.py:151} INFO - [2023-09-20T22:40:07.694+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/volumeOverTime.py
+[2023-09-20T22:40:07.703+0000] {processor.py:839} INFO - DAG(s) dict_keys(['volumeOverTime']) retrieved from /opt/airflow/dags/volumeOverTime.py
+[2023-09-20T22:40:07.735+0000] {logging_mixin.py:151} INFO - [2023-09-20T22:40:07.735+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-20T22:40:07.751+0000] {logging_mixin.py:151} INFO - [2023-09-20T22:40:07.751+0000] {dag.py:3696} INFO - Setting next_dagrun for volumeOverTime to None, run_after=None
+[2023-09-20T22:40:07.781+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/volumeOverTime.py took 0.098 seconds
+[2023-09-20T22:40:37.834+0000] {processor.py:157} INFO - Started process (PID=1736) to work on /opt/airflow/dags/volumeOverTime.py
+[2023-09-20T22:40:37.836+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/volumeOverTime.py for tasks to queue
+[2023-09-20T22:40:37.845+0000] {logging_mixin.py:151} INFO - [2023-09-20T22:40:37.844+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/volumeOverTime.py
+[2023-09-20T22:40:37.864+0000] {processor.py:839} INFO - DAG(s) dict_keys(['volumeOverTime']) retrieved from /opt/airflow/dags/volumeOverTime.py
+[2023-09-20T22:40:37.904+0000] {logging_mixin.py:151} INFO - [2023-09-20T22:40:37.904+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-20T22:40:37.928+0000] {logging_mixin.py:151} INFO - [2023-09-20T22:40:37.927+0000] {dag.py:3696} INFO - Setting next_dagrun for volumeOverTime to None, run_after=None
+[2023-09-20T22:40:37.985+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/volumeOverTime.py took 0.160 seconds
+[2023-09-20T22:41:08.479+0000] {processor.py:157} INFO - Started process (PID=1791) to work on /opt/airflow/dags/volumeOverTime.py
+[2023-09-20T22:41:08.482+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/volumeOverTime.py for tasks to queue
+[2023-09-20T22:41:08.489+0000] {logging_mixin.py:151} INFO - [2023-09-20T22:41:08.488+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/volumeOverTime.py
+[2023-09-20T22:41:08.504+0000] {processor.py:839} INFO - DAG(s) dict_keys(['volumeOverTime']) retrieved from /opt/airflow/dags/volumeOverTime.py
+[2023-09-20T22:41:08.550+0000] {logging_mixin.py:151} INFO - [2023-09-20T22:41:08.550+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-20T22:41:08.582+0000] {logging_mixin.py:151} INFO - [2023-09-20T22:41:08.581+0000] {dag.py:3696} INFO - Setting next_dagrun for volumeOverTime to None, run_after=None
+[2023-09-20T22:41:08.619+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/volumeOverTime.py took 0.149 seconds
+[2023-09-20T22:41:39.165+0000] {processor.py:157} INFO - Started process (PID=1846) to work on /opt/airflow/dags/volumeOverTime.py
+[2023-09-20T22:41:39.168+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/volumeOverTime.py for tasks to queue
+[2023-09-20T22:41:39.175+0000] {logging_mixin.py:151} INFO - [2023-09-20T22:41:39.174+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/volumeOverTime.py
+[2023-09-20T22:41:39.189+0000] {processor.py:839} INFO - DAG(s) dict_keys(['volumeOverTime']) retrieved from /opt/airflow/dags/volumeOverTime.py
+[2023-09-20T22:41:39.234+0000] {logging_mixin.py:151} INFO - [2023-09-20T22:41:39.233+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-20T22:41:39.261+0000] {logging_mixin.py:151} INFO - [2023-09-20T22:41:39.261+0000] {dag.py:3696} INFO - Setting next_dagrun for volumeOverTime to None, run_after=None
+[2023-09-20T22:41:39.299+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/volumeOverTime.py took 0.142 seconds
+[2023-09-20T22:42:09.766+0000] {processor.py:157} INFO - Started process (PID=1901) to work on /opt/airflow/dags/volumeOverTime.py
+[2023-09-20T22:42:09.767+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/volumeOverTime.py for tasks to queue
+[2023-09-20T22:42:09.771+0000] {logging_mixin.py:151} INFO - [2023-09-20T22:42:09.771+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/volumeOverTime.py
+[2023-09-20T22:42:09.782+0000] {processor.py:839} INFO - DAG(s) dict_keys(['volumeOverTime']) retrieved from /opt/airflow/dags/volumeOverTime.py
+[2023-09-20T22:42:09.812+0000] {logging_mixin.py:151} INFO - [2023-09-20T22:42:09.811+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-20T22:42:09.830+0000] {logging_mixin.py:151} INFO - [2023-09-20T22:42:09.830+0000] {dag.py:3696} INFO - Setting next_dagrun for volumeOverTime to None, run_after=None
+[2023-09-20T22:42:09.858+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/volumeOverTime.py took 0.096 seconds
+[2023-09-20T22:42:40.244+0000] {processor.py:157} INFO - Started process (PID=1956) to work on /opt/airflow/dags/volumeOverTime.py
+[2023-09-20T22:42:40.247+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/volumeOverTime.py for tasks to queue
+[2023-09-20T22:42:40.256+0000] {logging_mixin.py:151} INFO - [2023-09-20T22:42:40.255+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/volumeOverTime.py
+[2023-09-20T22:42:40.273+0000] {processor.py:839} INFO - DAG(s) dict_keys(['volumeOverTime']) retrieved from /opt/airflow/dags/volumeOverTime.py
+[2023-09-20T22:42:40.309+0000] {logging_mixin.py:151} INFO - [2023-09-20T22:42:40.308+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-20T22:42:40.332+0000] {logging_mixin.py:151} INFO - [2023-09-20T22:42:40.332+0000] {dag.py:3696} INFO - Setting next_dagrun for volumeOverTime to None, run_after=None
+[2023-09-20T22:42:40.394+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/volumeOverTime.py took 0.159 seconds
+[2023-09-20T22:43:10.743+0000] {processor.py:157} INFO - Started process (PID=2011) to work on /opt/airflow/dags/volumeOverTime.py
+[2023-09-20T22:43:10.745+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/volumeOverTime.py for tasks to queue
+[2023-09-20T22:43:10.751+0000] {logging_mixin.py:151} INFO - [2023-09-20T22:43:10.750+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/volumeOverTime.py
+[2023-09-20T22:43:10.762+0000] {processor.py:839} INFO - DAG(s) dict_keys(['volumeOverTime']) retrieved from /opt/airflow/dags/volumeOverTime.py
+[2023-09-20T22:43:10.797+0000] {logging_mixin.py:151} INFO - [2023-09-20T22:43:10.797+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-20T22:43:10.823+0000] {logging_mixin.py:151} INFO - [2023-09-20T22:43:10.823+0000] {dag.py:3696} INFO - Setting next_dagrun for volumeOverTime to None, run_after=None
+[2023-09-20T22:43:10.854+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/volumeOverTime.py took 0.118 seconds
+[2023-09-20T22:43:41.797+0000] {processor.py:157} INFO - Started process (PID=2066) to work on /opt/airflow/dags/volumeOverTime.py
+[2023-09-20T22:43:41.799+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/volumeOverTime.py for tasks to queue
+[2023-09-20T22:43:41.803+0000] {logging_mixin.py:151} INFO - [2023-09-20T22:43:41.803+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/volumeOverTime.py
+[2023-09-20T22:43:41.811+0000] {processor.py:839} INFO - DAG(s) dict_keys(['volumeOverTime']) retrieved from /opt/airflow/dags/volumeOverTime.py
+[2023-09-20T22:43:41.837+0000] {logging_mixin.py:151} INFO - [2023-09-20T22:43:41.837+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-20T22:43:41.858+0000] {logging_mixin.py:151} INFO - [2023-09-20T22:43:41.857+0000] {dag.py:3696} INFO - Setting next_dagrun for volumeOverTime to None, run_after=None
+[2023-09-20T22:43:41.900+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/volumeOverTime.py took 0.107 seconds
+[2023-09-20T22:44:12.497+0000] {processor.py:157} INFO - Started process (PID=2121) to work on /opt/airflow/dags/volumeOverTime.py
+[2023-09-20T22:44:12.499+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/volumeOverTime.py for tasks to queue
+[2023-09-20T22:44:12.507+0000] {logging_mixin.py:151} INFO - [2023-09-20T22:44:12.506+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/volumeOverTime.py
+[2023-09-20T22:44:12.522+0000] {processor.py:839} INFO - DAG(s) dict_keys(['volumeOverTime']) retrieved from /opt/airflow/dags/volumeOverTime.py
+[2023-09-20T22:44:12.562+0000] {logging_mixin.py:151} INFO - [2023-09-20T22:44:12.561+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-20T22:44:12.588+0000] {logging_mixin.py:151} INFO - [2023-09-20T22:44:12.588+0000] {dag.py:3696} INFO - Setting next_dagrun for volumeOverTime to None, run_after=None
+[2023-09-20T22:44:12.627+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/volumeOverTime.py took 0.140 seconds
+[2023-09-20T22:44:43.616+0000] {processor.py:157} INFO - Started process (PID=2177) to work on /opt/airflow/dags/volumeOverTime.py
+[2023-09-20T22:44:43.618+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/volumeOverTime.py for tasks to queue
+[2023-09-20T22:44:43.626+0000] {logging_mixin.py:151} INFO - [2023-09-20T22:44:43.625+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/volumeOverTime.py
+[2023-09-20T22:44:43.641+0000] {processor.py:839} INFO - DAG(s) dict_keys(['volumeOverTime']) retrieved from /opt/airflow/dags/volumeOverTime.py
+[2023-09-20T22:44:43.686+0000] {logging_mixin.py:151} INFO - [2023-09-20T22:44:43.686+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-20T22:44:43.715+0000] {logging_mixin.py:151} INFO - [2023-09-20T22:44:43.715+0000] {dag.py:3696} INFO - Setting next_dagrun for volumeOverTime to None, run_after=None
+[2023-09-20T22:44:43.764+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/volumeOverTime.py took 0.157 seconds
+[2023-09-20T22:45:14.455+0000] {processor.py:157} INFO - Started process (PID=2232) to work on /opt/airflow/dags/volumeOverTime.py
+[2023-09-20T22:45:14.457+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/volumeOverTime.py for tasks to queue
+[2023-09-20T22:45:14.462+0000] {logging_mixin.py:151} INFO - [2023-09-20T22:45:14.461+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/volumeOverTime.py
+[2023-09-20T22:45:14.477+0000] {processor.py:839} INFO - DAG(s) dict_keys(['volumeOverTime']) retrieved from /opt/airflow/dags/volumeOverTime.py
+[2023-09-20T22:45:14.510+0000] {logging_mixin.py:151} INFO - [2023-09-20T22:45:14.510+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-20T22:45:14.529+0000] {logging_mixin.py:151} INFO - [2023-09-20T22:45:14.529+0000] {dag.py:3696} INFO - Setting next_dagrun for volumeOverTime to None, run_after=None
+[2023-09-20T22:45:14.566+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/volumeOverTime.py took 0.120 seconds
+[2023-09-20T22:45:45.155+0000] {processor.py:157} INFO - Started process (PID=2287) to work on /opt/airflow/dags/volumeOverTime.py
+[2023-09-20T22:45:45.158+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/volumeOverTime.py for tasks to queue
+[2023-09-20T22:45:45.167+0000] {logging_mixin.py:151} INFO - [2023-09-20T22:45:45.166+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/volumeOverTime.py
+[2023-09-20T22:45:45.182+0000] {processor.py:839} INFO - DAG(s) dict_keys(['volumeOverTime']) retrieved from /opt/airflow/dags/volumeOverTime.py
+[2023-09-20T22:45:45.231+0000] {logging_mixin.py:151} INFO - [2023-09-20T22:45:45.231+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-20T22:45:45.259+0000] {logging_mixin.py:151} INFO - [2023-09-20T22:45:45.259+0000] {dag.py:3696} INFO - Setting next_dagrun for volumeOverTime to None, run_after=None
+[2023-09-20T22:45:45.297+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/volumeOverTime.py took 0.151 seconds
+[2023-09-20T22:46:16.313+0000] {processor.py:157} INFO - Started process (PID=2342) to work on /opt/airflow/dags/volumeOverTime.py
+[2023-09-20T22:46:16.316+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/volumeOverTime.py for tasks to queue
+[2023-09-20T22:46:16.323+0000] {logging_mixin.py:151} INFO - [2023-09-20T22:46:16.323+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/volumeOverTime.py
+[2023-09-20T22:46:16.338+0000] {processor.py:839} INFO - DAG(s) dict_keys(['volumeOverTime']) retrieved from /opt/airflow/dags/volumeOverTime.py
+[2023-09-20T22:46:16.380+0000] {logging_mixin.py:151} INFO - [2023-09-20T22:46:16.380+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-20T22:46:16.407+0000] {logging_mixin.py:151} INFO - [2023-09-20T22:46:16.407+0000] {dag.py:3696} INFO - Setting next_dagrun for volumeOverTime to None, run_after=None
+[2023-09-20T22:46:16.450+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/volumeOverTime.py took 0.145 seconds
+[2023-09-20T22:46:47.377+0000] {processor.py:157} INFO - Started process (PID=2397) to work on /opt/airflow/dags/volumeOverTime.py
+[2023-09-20T22:46:47.380+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/volumeOverTime.py for tasks to queue
+[2023-09-20T22:46:47.387+0000] {logging_mixin.py:151} INFO - [2023-09-20T22:46:47.386+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/volumeOverTime.py
+[2023-09-20T22:46:47.399+0000] {processor.py:839} INFO - DAG(s) dict_keys(['volumeOverTime']) retrieved from /opt/airflow/dags/volumeOverTime.py
+[2023-09-20T22:46:47.437+0000] {logging_mixin.py:151} INFO - [2023-09-20T22:46:47.437+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-20T22:46:47.464+0000] {logging_mixin.py:151} INFO - [2023-09-20T22:46:47.464+0000] {dag.py:3696} INFO - Setting next_dagrun for volumeOverTime to None, run_after=None
+[2023-09-20T22:46:47.502+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/volumeOverTime.py took 0.134 seconds
+[2023-09-20T22:47:18.322+0000] {processor.py:157} INFO - Started process (PID=2452) to work on /opt/airflow/dags/volumeOverTime.py
+[2023-09-20T22:47:18.325+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/volumeOverTime.py for tasks to queue
+[2023-09-20T22:47:18.335+0000] {logging_mixin.py:151} INFO - [2023-09-20T22:47:18.334+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/volumeOverTime.py
+[2023-09-20T22:47:18.350+0000] {processor.py:839} INFO - DAG(s) dict_keys(['volumeOverTime']) retrieved from /opt/airflow/dags/volumeOverTime.py
+[2023-09-20T22:47:18.397+0000] {logging_mixin.py:151} INFO - [2023-09-20T22:47:18.396+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-20T22:47:18.428+0000] {logging_mixin.py:151} INFO - [2023-09-20T22:47:18.428+0000] {dag.py:3696} INFO - Setting next_dagrun for volumeOverTime to None, run_after=None
+[2023-09-20T22:47:18.485+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/volumeOverTime.py took 0.172 seconds
+[2023-09-20T22:47:48.865+0000] {processor.py:157} INFO - Started process (PID=2507) to work on /opt/airflow/dags/volumeOverTime.py
+[2023-09-20T22:47:48.867+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/volumeOverTime.py for tasks to queue
+[2023-09-20T22:47:48.875+0000] {logging_mixin.py:151} INFO - [2023-09-20T22:47:48.874+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/volumeOverTime.py
+[2023-09-20T22:47:48.890+0000] {processor.py:839} INFO - DAG(s) dict_keys(['volumeOverTime']) retrieved from /opt/airflow/dags/volumeOverTime.py
+[2023-09-20T22:47:48.936+0000] {logging_mixin.py:151} INFO - [2023-09-20T22:47:48.935+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-20T22:47:48.969+0000] {logging_mixin.py:151} INFO - [2023-09-20T22:47:48.968+0000] {dag.py:3696} INFO - Setting next_dagrun for volumeOverTime to None, run_after=None
+[2023-09-20T22:47:49.031+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/volumeOverTime.py took 0.175 seconds
+[2023-09-20T22:48:19.428+0000] {processor.py:157} INFO - Started process (PID=2562) to work on /opt/airflow/dags/volumeOverTime.py
+[2023-09-20T22:48:19.431+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/volumeOverTime.py for tasks to queue
+[2023-09-20T22:48:19.439+0000] {logging_mixin.py:151} INFO - [2023-09-20T22:48:19.439+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/volumeOverTime.py
+[2023-09-20T22:48:19.454+0000] {processor.py:839} INFO - DAG(s) dict_keys(['volumeOverTime']) retrieved from /opt/airflow/dags/volumeOverTime.py
+[2023-09-20T22:48:19.500+0000] {logging_mixin.py:151} INFO - [2023-09-20T22:48:19.500+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-20T22:48:19.530+0000] {logging_mixin.py:151} INFO - [2023-09-20T22:48:19.530+0000] {dag.py:3696} INFO - Setting next_dagrun for volumeOverTime to None, run_after=None
+[2023-09-20T22:48:19.574+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/volumeOverTime.py took 0.156 seconds
+[2023-09-20T22:48:50.020+0000] {processor.py:157} INFO - Started process (PID=2617) to work on /opt/airflow/dags/volumeOverTime.py
+[2023-09-20T22:48:50.023+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/volumeOverTime.py for tasks to queue
+[2023-09-20T22:48:50.035+0000] {logging_mixin.py:151} INFO - [2023-09-20T22:48:50.034+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/volumeOverTime.py
+[2023-09-20T22:48:50.050+0000] {processor.py:839} INFO - DAG(s) dict_keys(['volumeOverTime']) retrieved from /opt/airflow/dags/volumeOverTime.py
+[2023-09-20T22:48:50.090+0000] {logging_mixin.py:151} INFO - [2023-09-20T22:48:50.089+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-20T22:48:50.115+0000] {logging_mixin.py:151} INFO - [2023-09-20T22:48:50.115+0000] {dag.py:3696} INFO - Setting next_dagrun for volumeOverTime to None, run_after=None
+[2023-09-20T22:48:50.150+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/volumeOverTime.py took 0.140 seconds
+[2023-09-20T22:49:20.663+0000] {processor.py:157} INFO - Started process (PID=2672) to work on /opt/airflow/dags/volumeOverTime.py
+[2023-09-20T22:49:20.665+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/volumeOverTime.py for tasks to queue
+[2023-09-20T22:49:20.673+0000] {logging_mixin.py:151} INFO - [2023-09-20T22:49:20.673+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/volumeOverTime.py
+[2023-09-20T22:49:20.685+0000] {processor.py:839} INFO - DAG(s) dict_keys(['volumeOverTime']) retrieved from /opt/airflow/dags/volumeOverTime.py
+[2023-09-20T22:49:20.723+0000] {logging_mixin.py:151} INFO - [2023-09-20T22:49:20.722+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-20T22:49:20.740+0000] {logging_mixin.py:151} INFO - [2023-09-20T22:49:20.740+0000] {dag.py:3696} INFO - Setting next_dagrun for volumeOverTime to None, run_after=None
+[2023-09-20T22:49:20.776+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/volumeOverTime.py took 0.121 seconds
+[2023-09-20T22:49:50.845+0000] {processor.py:157} INFO - Started process (PID=2727) to work on /opt/airflow/dags/volumeOverTime.py
+[2023-09-20T22:49:50.848+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/volumeOverTime.py for tasks to queue
+[2023-09-20T22:49:50.856+0000] {logging_mixin.py:151} INFO - [2023-09-20T22:49:50.855+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/volumeOverTime.py
+[2023-09-20T22:49:50.868+0000] {processor.py:839} INFO - DAG(s) dict_keys(['volumeOverTime']) retrieved from /opt/airflow/dags/volumeOverTime.py
+[2023-09-20T22:49:50.902+0000] {logging_mixin.py:151} INFO - [2023-09-20T22:49:50.902+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-20T22:49:50.923+0000] {logging_mixin.py:151} INFO - [2023-09-20T22:49:50.923+0000] {dag.py:3696} INFO - Setting next_dagrun for volumeOverTime to None, run_after=None
+[2023-09-20T22:49:50.966+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/volumeOverTime.py took 0.130 seconds
+[2023-09-20T22:50:21.637+0000] {processor.py:157} INFO - Started process (PID=2782) to work on /opt/airflow/dags/volumeOverTime.py
+[2023-09-20T22:50:21.638+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/volumeOverTime.py for tasks to queue
+[2023-09-20T22:50:21.643+0000] {logging_mixin.py:151} INFO - [2023-09-20T22:50:21.643+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/volumeOverTime.py
+[2023-09-20T22:50:21.653+0000] {processor.py:839} INFO - DAG(s) dict_keys(['volumeOverTime']) retrieved from /opt/airflow/dags/volumeOverTime.py
+[2023-09-20T22:50:21.700+0000] {logging_mixin.py:151} INFO - [2023-09-20T22:50:21.700+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-20T22:50:21.733+0000] {logging_mixin.py:151} INFO - [2023-09-20T22:50:21.732+0000] {dag.py:3696} INFO - Setting next_dagrun for volumeOverTime to None, run_after=None
+[2023-09-20T22:50:21.782+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/volumeOverTime.py took 0.149 seconds
+[2023-09-20T22:50:52.011+0000] {processor.py:157} INFO - Started process (PID=2837) to work on /opt/airflow/dags/volumeOverTime.py
+[2023-09-20T22:50:52.014+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/volumeOverTime.py for tasks to queue
+[2023-09-20T22:50:52.023+0000] {logging_mixin.py:151} INFO - [2023-09-20T22:50:52.022+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/volumeOverTime.py
+[2023-09-20T22:50:52.040+0000] {processor.py:839} INFO - DAG(s) dict_keys(['volumeOverTime']) retrieved from /opt/airflow/dags/volumeOverTime.py
+[2023-09-20T22:50:52.091+0000] {logging_mixin.py:151} INFO - [2023-09-20T22:50:52.091+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-20T22:50:52.122+0000] {logging_mixin.py:151} INFO - [2023-09-20T22:50:52.122+0000] {dag.py:3696} INFO - Setting next_dagrun for volumeOverTime to None, run_after=None
+[2023-09-20T22:50:52.171+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/volumeOverTime.py took 0.170 seconds
+[2023-09-20T22:51:23.123+0000] {processor.py:157} INFO - Started process (PID=2892) to work on /opt/airflow/dags/volumeOverTime.py
+[2023-09-20T22:51:23.125+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/volumeOverTime.py for tasks to queue
+[2023-09-20T22:51:23.131+0000] {logging_mixin.py:151} INFO - [2023-09-20T22:51:23.130+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/volumeOverTime.py
+[2023-09-20T22:51:23.145+0000] {processor.py:839} INFO - DAG(s) dict_keys(['volumeOverTime']) retrieved from /opt/airflow/dags/volumeOverTime.py
+[2023-09-20T22:51:23.187+0000] {logging_mixin.py:151} INFO - [2023-09-20T22:51:23.186+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-20T22:51:23.215+0000] {logging_mixin.py:151} INFO - [2023-09-20T22:51:23.215+0000] {dag.py:3696} INFO - Setting next_dagrun for volumeOverTime to None, run_after=None
+[2023-09-20T22:51:23.283+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/volumeOverTime.py took 0.165 seconds
+[2023-09-20T22:51:53.637+0000] {processor.py:157} INFO - Started process (PID=2947) to work on /opt/airflow/dags/volumeOverTime.py
+[2023-09-20T22:51:53.640+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/volumeOverTime.py for tasks to queue
+[2023-09-20T22:51:53.645+0000] {logging_mixin.py:151} INFO - [2023-09-20T22:51:53.645+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/volumeOverTime.py
+[2023-09-20T22:51:53.660+0000] {processor.py:839} INFO - DAG(s) dict_keys(['volumeOverTime']) retrieved from /opt/airflow/dags/volumeOverTime.py
+[2023-09-20T22:51:53.706+0000] {logging_mixin.py:151} INFO - [2023-09-20T22:51:53.705+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-20T22:51:53.730+0000] {logging_mixin.py:151} INFO - [2023-09-20T22:51:53.730+0000] {dag.py:3696} INFO - Setting next_dagrun for volumeOverTime to None, run_after=None
+[2023-09-20T22:51:53.777+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/volumeOverTime.py took 0.150 seconds
+[2023-09-20T23:11:29.038+0000] {processor.py:157} INFO - Started process (PID=30) to work on /opt/airflow/dags/volumeOverTime.py
+[2023-09-20T23:11:29.040+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/volumeOverTime.py for tasks to queue
+[2023-09-20T23:11:29.043+0000] {logging_mixin.py:151} INFO - [2023-09-20T23:11:29.043+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/volumeOverTime.py
+[2023-09-20T23:11:29.061+0000] {processor.py:839} INFO - DAG(s) dict_keys(['volumeOverTime']) retrieved from /opt/airflow/dags/volumeOverTime.py
+[2023-09-20T23:11:29.528+0000] {logging_mixin.py:151} INFO - [2023-09-20T23:11:29.528+0000] {security.py:708} INFO - Not syncing DAG-level permissions for DAG 'DAG:volumeOverTime' as access control is unset.
+[2023-09-20T23:11:29.529+0000] {logging_mixin.py:151} INFO - [2023-09-20T23:11:29.528+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-20T23:11:29.544+0000] {logging_mixin.py:151} INFO - [2023-09-20T23:11:29.544+0000] {dag.py:3696} INFO - Setting next_dagrun for volumeOverTime to None, run_after=None
+[2023-09-20T23:11:29.796+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/volumeOverTime.py took 0.762 seconds
+[2023-09-20T23:12:00.633+0000] {processor.py:157} INFO - Started process (PID=86) to work on /opt/airflow/dags/volumeOverTime.py
+[2023-09-20T23:12:00.637+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/volumeOverTime.py for tasks to queue
+[2023-09-20T23:12:00.646+0000] {logging_mixin.py:151} INFO - [2023-09-20T23:12:00.645+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/volumeOverTime.py
+[2023-09-20T23:12:00.664+0000] {processor.py:839} INFO - DAG(s) dict_keys(['volumeOverTime']) retrieved from /opt/airflow/dags/volumeOverTime.py
+[2023-09-20T23:12:00.703+0000] {logging_mixin.py:151} INFO - [2023-09-20T23:12:00.703+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-20T23:12:00.724+0000] {logging_mixin.py:151} INFO - [2023-09-20T23:12:00.724+0000] {dag.py:3696} INFO - Setting next_dagrun for volumeOverTime to None, run_after=None
+[2023-09-20T23:12:00.751+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/volumeOverTime.py took 0.127 seconds
+[2023-09-20T23:12:31.371+0000] {processor.py:157} INFO - Started process (PID=141) to work on /opt/airflow/dags/volumeOverTime.py
+[2023-09-20T23:12:31.372+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/volumeOverTime.py for tasks to queue
+[2023-09-20T23:12:31.377+0000] {logging_mixin.py:151} INFO - [2023-09-20T23:12:31.376+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/volumeOverTime.py
+[2023-09-20T23:12:31.392+0000] {processor.py:839} INFO - DAG(s) dict_keys(['volumeOverTime']) retrieved from /opt/airflow/dags/volumeOverTime.py
+[2023-09-20T23:12:31.421+0000] {logging_mixin.py:151} INFO - [2023-09-20T23:12:31.421+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-20T23:12:31.440+0000] {logging_mixin.py:151} INFO - [2023-09-20T23:12:31.440+0000] {dag.py:3696} INFO - Setting next_dagrun for volumeOverTime to None, run_after=None
+[2023-09-20T23:12:31.470+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/volumeOverTime.py took 0.107 seconds
+[2023-09-20T23:13:01.673+0000] {processor.py:157} INFO - Started process (PID=196) to work on /opt/airflow/dags/volumeOverTime.py
+[2023-09-20T23:13:01.677+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/volumeOverTime.py for tasks to queue
+[2023-09-20T23:13:01.687+0000] {logging_mixin.py:151} INFO - [2023-09-20T23:13:01.686+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/volumeOverTime.py
+[2023-09-20T23:13:01.701+0000] {processor.py:839} INFO - DAG(s) dict_keys(['volumeOverTime']) retrieved from /opt/airflow/dags/volumeOverTime.py
+[2023-09-20T23:13:01.749+0000] {logging_mixin.py:151} INFO - [2023-09-20T23:13:01.749+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-20T23:13:01.777+0000] {logging_mixin.py:151} INFO - [2023-09-20T23:13:01.777+0000] {dag.py:3696} INFO - Setting next_dagrun for volumeOverTime to None, run_after=None
+[2023-09-20T23:13:01.817+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/volumeOverTime.py took 0.153 seconds
